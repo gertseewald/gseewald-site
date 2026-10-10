@@ -1,0 +1,109 @@
+:root{--sand:#EEEADC;--ink:#171714;--border:1px solid var(--ink);--white:#fff;--muted:#64625d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--sand);color:var(--ink);font:400 15px/1.65 'Nunito Sans',sans-serif}button,a{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid #5d6d78;outline-offset:3px}a{color:inherit}.site-shell{max-width:1440px;margin:auto;padding:0 80px}.topbar{min-height:116px;display:flex;align-items:center;justify-content:flex-end;gap:34px;border-bottom:var(--border)}.topbar>button{border:0;background:none;padding:10px 0;font-size:12px;letter-spacing:.11em;font-weight:700}.nav-icon{display:flex;align-items:center;width:31px;height:31px}.nav-icon img{width:100%;height:100%;object-fit:contain}.languages{display:flex;gap:9px;align-items:center;font-size:12px;letter-spacing:.1em}.languages a{text-decoration:none;opacity:.55}.languages a[aria-current=page]{opacity:1;font-weight:700}.intro-grid{display:grid;grid-template-columns:1fr 1.7fr .48fr;min-height:460px;border-bottom:var(--border)}.image-tile{border:0;background:var(--white);padding:0;overflow:hidden}.portrait-tile{border-right:var(--border);display:block;min-height:440px}.portrait-tile img{width:100%;height:100%;max-height:570px;object-fit:cover;display:block}.identity-tile{padding:64px 58px 42px;display:flex;flex-direction:column;align-items:flex-start}.author-name{border:0;background:transparent;padding:0;font-size:clamp(42px,5.2vw,75px);line-height:1.1;font-weight:300;letter-spacing:-.055em;text-align:left}.tagline{font-size:16px;font-weight:600;line-height:1.6;max-width:430px;margin:20px 0 24px}.rule{width:65px;border-top:1px solid var(--ink);margin-bottom:20px}.bio-short{font-size:13px;max-width:500px;line-height:1.8}.bio-short p{margin:0 0 14px}.text-link{background:none;border:0;border-bottom:1px solid var(--ink);padding:0 0 4px;margin-top:auto;font-size:12px;letter-spacing:.07em;font-weight:700}.social-tile{border-left:var(--border);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:3px}.social-tile a{display:flex;width:100%;height:52px;justify-content:center;align-items:center}.social-tile img{max-width:105px;width:82%;height:47px;object-fit:contain}.book-feature{display:grid;grid-template-columns:1fr 1fr;min-height:510px;border-bottom:var(--border)}.book-art{min-height:500px;display:flex;align-items:center;justify-content:center}.book-art img{width:100%;height:100%;max-height:510px;object-fit:contain;transition:transform .35s}.book-art:hover img,.edition:hover img{transform:scale(1.025)}.book-description{padding:65px 66px 52px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.book-feature:not(.reversed) .book-art{border-right:var(--border)}.book-feature.reversed .book-art{border-left:var(--border)}.eyebrow{font-size:10px;letter-spacing:.18em;font-weight:700;color:var(--muted)}.feature-title{font-weight:300;font-size:clamp(31px,3.4vw,48px);line-height:1.18;text-align:left;border:0;background:none;padding:0;margin:16px 0 20px;letter-spacing:-.035em}.feature-copy{font-size:14px;line-height:1.85}.feature-copy p{margin:0 0 15px}.feature-copy .book-subtitle{font-size:12px;font-weight:700;letter-spacing:.025em}.book-description .text-link{margin-top:18px}.editions{padding-top:40px}.editions-heading{display:flex;gap:30px;align-items:center;font-size:11px;letter-spacing:.16em;font-weight:700;margin-bottom:25px}.hairline{flex:1;border-top:var(--border)}.edition-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:var(--border);border-left:var(--border)}.edition{background:#fff;border:0;border-right:var(--border);border-bottom:var(--border);padding:0 0 17px;text-align:left;display:flex;flex-direction:column}.edition img{width:100%;aspect-ratio:640/880;object-fit:contain;transition:transform .3s}.edition>span{padding:6px 18px 0;font-size:11px;letter-spacing:.09em;font-weight:700}.edition small{color:var(--muted);font-size:10px;margin-left:8px}footer{display:flex;justify-content:space-between;gap:15px;padding:40px 0 55px;font-size:11px;letter-spacing:.04em}footer a{text-decoration:none}.overlay{position:fixed;inset:0;z-index:20;background:rgba(18,18,16,.64);display:flex;align-items:center;justify-content:center;padding:28px}.overlay[hidden]{display:none}.modal{background:var(--sand);border:var(--border);width:min(960px,100%);max-height:85dvh;display:flex;flex-direction:column;box-shadow:0 22px 70px #0004}.modal-header{flex-shrink:0;display:flex;align-items:center;justify-content:space-between;border-bottom:var(--border);padding:17px 36px;min-height:70px}.modal-header h2{font-size:16px;font-weight:700;letter-spacing:.05em;margin:0}.close-modal{font-size:30px;line-height:1;background:none;border:0;padding:0 4px}.modal-scroll{overflow-y:auto;padding:40px 50px 52px;overscroll-behavior:contain}.modal-scroll p{margin:0 0 20px}.modal-scroll .author-text{max-width:740px;font-size:15px;line-height:1.85}.modal-scroll .author-text p{margin-bottom:19px}.modal-book{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:start}.modal-cover{width:100%;height:auto;display:block;background:white}.modal-body{font-size:14px;line-height:1.85}.modal-body .questions{font-size:17px;font-weight:600;line-height:1.5}.modal-body .thesis{font-size:19px;font-weight:700;line-height:1.5;margin-top:26px}.modal-body .subtitle{font-style:italic}.modal-body h3{font-size:12px;letter-spacing:.13em;margin:30px 0 12px}.modal-body .credits{font-size:12px;line-height:1.6;margin-bottom:28px}.modal-body .credits div{margin:3px 0}.modal-body .credits strong{font-weight:700}.simple-modal{font-size:17px;min-height:140px;display:flex;flex-direction:column;justify-content:center}.simple-modal a{font-weight:600}.overlay-open{overflow:hidden}@media(max-width:1050px){.site-shell{padding:0 38px}.identity-tile{padding:42px 35px}.book-description{padding:42px}.topbar{gap:22px}}@media(max-width:720px){.site-shell{padding:0 20px}.topbar{min-height:82px;gap:14px;flex-wrap:wrap;justify-content:center;padding:13px 0}.topbar>button,.languages{font-size:10px}.nav-icon{width:24px;height:24px}.intro-grid{grid-template-columns:1fr 74px}.portrait-tile{grid-column:1/-1;max-height:430px;min-height:0;border-right:0;border-bottom:var(--border)}.portrait-tile img{height:430px;object-position:center 35%}.identity-tile{padding:40px 22px 36px}.author-name{font-size:51px}.tagline{font-size:14px}.social-tile{border-left:var(--border)}.social-tile a{height:47px}.social-tile img{width:100%;max-width:68px}.book-feature,.book-feature.reversed{display:flex;flex-direction:column}.book-feature.reversed .book-art{order:0}.book-feature.reversed .book-description{order:1}.book-art{min-height:0;height:390px!important;border:0!important;border-bottom:var(--border)!important}.book-art img{max-height:390px}.book-description{padding:36px 24px 45px}.feature-title{font-size:36px}.edition-grid{grid-template-columns:repeat(2,1fr)}.overlay{padding:8px}.modal{max-height:96dvh}.modal-header{padding:13px 20px;min-height:56px}.modal-scroll{padding:25px 20px 35px}.modal-book{grid-template-columns:1fr;gap:25px}.modal-cover{width:min(210px,70%);margin:auto}.modal-body .questions{font-size:16px}footer{flex-direction:column;padding:25px 0 40px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+/* V2 — composição modular, alinhada à referência PSD. Conteúdo textual preservado. */
+@media(min-width:1061px){
+.site-shell{max-width:1440px;padding:0 80px}
+.topbar{height:150px;min-height:150px;justify-content:flex-end;gap:40px;border-bottom:0;padding-right:0}
+.topbar>button{font-size:16px;font-weight:600;letter-spacing:.045em}
+.nav-icon{width:42px;height:42px}
+.languages{font-size:16px;gap:12px;letter-spacing:.02em}
+main{display:flex;flex-direction:column;gap:20px}
+.intro-grid{width:1280px;max-width:100%;height:440px;min-height:0;grid-template-columns:320fr 800fr 160fr;border:0}
+.portrait-tile{height:440px;min-height:0;border:var(--border);background:transparent}
+.portrait-tile img{height:100%;max-height:none;object-fit:cover}
+.identity-tile{height:440px;border:var(--border);border-left:0;padding:44px 60px 30px}
+.author-name{font-size:67px;font-weight:400}
+.social-tile{height:440px;border:var(--border);border-left:0;gap:4px}
+.social-tile a{height:60px}
+.social-tile img{width:100%;height:55px;max-width:140px}
+.book-feature{width:1120px;max-width:calc(100% - 80px);height:440px;min-height:0;grid-template-columns:320fr 800fr;border:0}
+.book-feature:not(.reversed){align-self:flex-start}
+.book-feature.reversed{align-self:flex-end;grid-template-columns:800fr 320fr}
+.book-art{height:440px;min-height:0;border:var(--border)!important;background:transparent;overflow:hidden}
+.book-art img{width:100%;height:100%;max-height:none;object-fit:contain}
+.book-description{height:440px;border:var(--border);padding:40px 62px 36px;justify-content:center}
+.book-feature:not(.reversed) .book-description{border-left:0}
+.book-feature.reversed .book-description{border-right:0}
+.feature-title{font-weight:400;margin-top:0}
+.feature-copy{font-weight:500}
+.bio-short{font-weight:500}
+.editions{padding-top:0;width:1280px;max-width:100%}
+.editions-heading{margin:0 0 20px;font-size:12px}
+.edition-grid{border:0;gap:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+.edition{border:var(--border);border-right:0;padding:0;background:transparent;overflow:hidden;aspect-ratio:320/440}
+.edition:last-child{border-right:var(--border)}
+.edition img{height:100%;width:100%;aspect-ratio:auto;object-fit:contain}
+footer{padding-top:22px}
+}
+@media(min-width:721px) and (max-width:1060px){
+main{display:flex;flex-direction:column;gap:20px}
+.intro-grid,.book-feature{border:var(--border)}
+.book-feature{min-height:440px}
+.book-art{min-height:440px;background:transparent}
+.book-art img{max-height:440px}
+.edition>span{display:none}
+.edition{padding:0;background:transparent}
+}
+@media(max-width:720px){
+main{display:flex;flex-direction:column;gap:20px}
+.intro-grid,.book-feature{border:var(--border)}
+.portrait-tile{background:transparent}
+.book-art{background:transparent}
+.edition{background:transparent;padding:0}
+.edition>span{display:none}
+}
+/* V3 — ajustes solicitados: barra superior e leitura. Base: V2. */
+@media(min-width:1061px){
+ .topbar{display:grid;grid-template-columns:112px 140px minmax(120px,1fr) 70px 80px minmax(160px,1fr);gap:0;align-items:center;justify-content:initial;padding:0 0 0 22px}
+ .topbar>button{text-align:left;justify-self:start}
+ .topbar>button:nth-child(1),.topbar>button:nth-child(2){font-size:16px;font-weight:600}
+ .topbar>button:nth-child(3){font-size:18px;font-weight:600;justify-self:center}
+ .topbar>.nav-icon{width:47px;height:47px;justify-self:center}
+ .topbar>.languages{justify-self:end;font-size:16px}
+ .bio-short{font-size:13.65px}
+ .feature-copy{font-size:14.7px}
+}
+@media(min-width:721px) and (max-width:1060px){
+ .topbar{justify-content:space-between;gap:14px}
+ .topbar>button:nth-child(3){font-size:1.12em}
+ .nav-icon{width:37px;height:37px}
+ .bio-short{font-size:13.65px}
+ .feature-copy{font-size:14.7px}
+}
+@media(max-width:720px){
+ .bio-short{font-size:13.65px}
+ .feature-copy{font-size:14.7px}
+}
+
+
+/* V4 — ajustes finos aprovados, preservando a estrutura da V3. */
+@media(min-width:1061px){
+  .topbar>.nav-icon{width:66px;height:66px}
+  .tagline{font-size:17.5px;line-height:1.5}
+  .book-feature.reversed .feature-title{font-size:35px;line-height:1.15;margin-bottom:7px;letter-spacing:-.025em}
+  .book-feature.reversed .feature-copy .book-subtitle{font-size:14px;line-height:1.5;margin-bottom:15px;font-weight:700}
+  .book-feature.reversed .book-description{padding-top:49px;padding-bottom:33px}
+  .bio-short,.feature-copy{font-weight:400}
+}
+@media(min-width:721px) and (max-width:1060px){
+  .topbar>.nav-icon{width:50px;height:50px}
+  .tagline{font-size:17px}
+  .book-feature.reversed .feature-title{font-size:35px;margin-bottom:9px}
+  .book-feature.reversed .feature-copy .book-subtitle{font-size:13.5px}
+  .bio-short,.feature-copy{font-weight:400}
+}
+@media(max-width:720px){
+  .tagline{font-size:15px}
+  .book-feature.reversed .feature-title{font-size:32px;margin-bottom:9px}
+  .book-feature.reversed .feature-copy .book-subtitle{font-size:13px}
+  .bio-short,.feature-copy{font-weight:400}
+}
+
+/* Modais editoriais dos volumes II e III: preservam o layout existente. */
+.future-volume-copy p:first-child{font-style:italic}
+.future-volume-copy p{margin-bottom:20px}
+
+/* Version 5: press release modal */
+.press-copy{max-width:790px;margin:0 auto;line-height:1.65;}
+.press-copy h2{font-size:1.25rem;margin:0 0 1rem;}
+.press-copy h3{font-size:1.12rem;margin:1.7rem 0 .8rem;}
+.press-copy p{margin:0 0 1.05rem;}

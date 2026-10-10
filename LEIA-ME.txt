@@ -1,0 +1,15 @@
+G. SEEWALD — SITE VERSÃO 3
+
+Para abrir: dê dois cliques no arquivo index.html dentro desta pasta.
+
+A V3 parte da V2 e altera SOMENTE:
+- Navegação superior desktop: PRESS e CONTATO à esquerda; VENDAS mais ao centro e ligeiramente maior; ícones Blog e Wikipedia maiores e próximos ao centro; idiomas à direita.
+- Textos corridos da apresentação do autor e dos livros: aumento de 5%.
+
+Permanecem as dimensões, molduras, imagens, modais, textos, títulos e a seção EDIÇÕES da V2.
+
+Textos multilíngues editáveis: content/textos.js (o site lê esse arquivo ao abrir localmente). O arquivo textos.json é uma cópia para referência.
+
+Este site pode ser aberto localmente, sem instalar programas. Para publicar, será necessário contratar hospedagem ou usar um serviço de publicação de sites estáticos.
+
+VERSÃO 4: ícones superiores maiores; frase do autor ampliada; título SEEWALD reduzido; subtítulo ampliado; primeiro e segundo trechos de SEEWALD unidos; refinamento de pesos e espaçamento.
